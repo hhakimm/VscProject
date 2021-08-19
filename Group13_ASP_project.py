@@ -1,3 +1,8 @@
-import matplotlib as plt
 import pandas as pd
-print(panda)
+import matplotlib.pyplot as plt
+import numpy as np
+
+excel = pd.read_excel("IMVA.xls", sheet_name="IMVA")
+
+countries = excel ['Periods'].str.split(' ', n=1, expand=True)
+print(countries)
