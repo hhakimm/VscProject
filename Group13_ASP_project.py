@@ -1,2 +1,1 @@
-import pandas as pd
-ddw
+import matplotlib as plt
