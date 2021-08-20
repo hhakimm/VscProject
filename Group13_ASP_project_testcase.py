@@ -1,6 +1,12 @@
 import unittest
 import Group13_ASP_project as prog
 
+class Group13_ASP_PROJ(unittest.TestCase)
+    def test_total(selfself):
+        result 
+import unittest
+import Group13_ASP_project as prog
+
 class Group13_ASP_project(unittest.TestCase):
     def test_add(self):
         result=prog.top3.add(self)
